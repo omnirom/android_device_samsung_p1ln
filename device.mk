@@ -96,7 +96,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_LOCALES += hdpi
 
 # Screen size is "large" 7'tablet, density is "hdpi"
-PRODUCT_AAPT_CONFIG := large hdpi
+PRODUCT_AAPT_CONFIG := large hdpi xhdpi
+PRODUCT_AAPT_PREF_CONFIG := hdpi
 
 # Set here product definitions that valid for all p1 products
 PRODUCT_BRAND := Samsung
@@ -104,7 +105,7 @@ PRODUCT_MANUFACTURER := Samsung
 
 # Set build fingerprint / ID / product name etc.
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=GT-P1000 \
-    TARGET_DEVICE=GT-P1000 \
-    BUILD_FINGERPRINT=samsung/GT-P1000/GT-P1000:2.3.5/GINGERBREAD/XXJVT:user/release-keys \
-    PRIVATE_BUILD_DESC="GT-P1000-user 2.3.5 GINGERBREAD XXJVT release-keys"
+    PRODUCT_NAME=GT-P1000L \
+    TARGET_DEVICE=GT-P1000L \
+    BUILD_FINGERPRINT=samsung/GT-P1000L/GT-P1000L:2.3.6/GINGERBREAD/VIJR2:user/release-keys \
+    PRIVATE_BUILD_DESC="GT-P1000L-user 2.3.6 GINGERBREAD VIJR2 release-keys"

@@ -36,4 +36,4 @@ $(call inherit-product, device/samsung/p1ln/device.mk)
 # --------------------------------------------------------------------------------
 PRODUCT_NAME := omni_p1ln
 PRODUCT_DEVICE := p1ln
-PRODUCT_MODEL := GT-P1000LN
+PRODUCT_MODEL := GT-P1000L

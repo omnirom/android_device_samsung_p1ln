@@ -27,7 +27,7 @@ on fs
     mount ext4 /dev/block/mmcblk0p2 /data
     mount ext4 /dev/block/mmcblk0p3 /cache
 
-    mount_all /fstab.p1
+    mount_all /fstab.p1ln
 
     chown radio radio /radio/modem.bin
     restorecon /radio
@@ -148,8 +148,8 @@ on post-fs-data
 
 on boot
 
-    setprop ro.build.product p1
-    setprop ro.product.device p1
+    setprop ro.build.product p1ln
+    setprop ro.product.device p1ln
 
 service gpsd /system/vendor/bin/gpsd -c /system/vendor/etc/gps.xml
     class main
